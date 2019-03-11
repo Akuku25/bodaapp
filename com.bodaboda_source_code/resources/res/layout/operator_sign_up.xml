@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto" android:background="#ffe5b4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15pt" android:textStyle="italic" android:textColor="#284bda" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:text="@string/tvOperatorSignup"/>
+        <EditText android:id="@+id/etFullnames" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/etFullnames"/>
+        <EditText android:id="@+id/etMobile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/etPhone" android:inputType="number"/>
+        <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/etEmail" android:inputType="textEmailAddress"/>
+        <EditText android:id="@+id/etPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/etPassword" android:inputType="textPassword"/>
+        <EditText android:id="@+id/etCPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/etConfirmPass" android:inputType="textPassword"/>
+        <EditText android:id="@+id/etRegNo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/etRegNo"/>
+        <Button android:id="@+id/btnOperatorSignUp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:hint="@string/btnSignUp" android:drawableRight="@drawable/ic_action_next_item"/>
+    </LinearLayout>
+</ScrollView>

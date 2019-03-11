@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffe5b4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="#ffe5b4" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="20pt" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" android:text="@string/app_name"/>
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/ne"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/tvAboutApp"/>
+        <Spinner android:entries="@array/spinner_Mode" android:id="@+id/spinnerMode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:spinnerMode="dropdown"/>
+        <CheckBox android:id="@+id/chkDontShowAgain" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:text="@string/chkboxDontShow"/>
+        <Button android:gravity="center" android:id="@+id/btnGetStarted" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btnGetStarted" android:drawableRight="@drawable/ic_action_next_item" android:onClick="onClick"/>
+    </LinearLayout>
+</ScrollView>
